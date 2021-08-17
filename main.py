@@ -81,7 +81,6 @@ high_score = 0
 
 
 bg_surface = pygame.image.load('sprites/background-day.png').convert()
-#bg_surafce2 = pygame.image.load('sprites/background-day-no.png').convert()
 bg_surface = pygame.transform.scale2x(bg_surface)
 bg_x_pos = 0
 
